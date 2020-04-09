@@ -1,5 +1,3 @@
-Almanya
-almanya
 java
 Java
 Javascript
@@ -15,3 +13,16 @@ bilgisayar mühendisi
 bilgisayar Mühendisliği
 geliştirici
 Geliştirici
+react
+React
+angular
+Angular
+jdbc
+Jdbc
+Spring
+spring
+yazilimci
+Yazilimci
+IT
+bilisim
+Bilisim

@@ -6,15 +6,17 @@ from filter import isMatch
 def entries(page=1):
     arr = []
     r = request(page)
-    print('page number is : ' + str(page))
-    soup = BeautifulSoup(r.content, 'html5lib')
-    list = soup.find_all(id="entry-item-list")
-    for i in list:
-        for child in i.findChildren("div", class_="content", recursive=True):
-            temp = child.get_text().strip()
-            if isMatch(temp):
-                arr.append(rep(temp))
-        return arr
+    if r.status_code == 200:
+        soup = BeautifulSoup(r.content, 'html5lib')
+        list = soup.find_all(id="entry-item-list")
+        for i in list:
+            for child in i.findChildren("div", class_="content", recursive=True):
+                temp = child.get_text().strip()
+                if isMatch(temp):
+                    arr.append(rep(temp))
+            return arr
+    else:
+        return 404 # there is no content to show.
 
 def rep(entry):
     return entry.replace("#","");
