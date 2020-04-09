@@ -5,13 +5,11 @@ JavaScript
 javascript
 yazılım
 Yazılım
-Bilgisayar
 Bilgisayar Mühendisliği
-bilgisayar
 bilgisayar Mühendisliği
 bilgisayar mühendisi
 bilgisayar Mühendisliği
-geliştirici
+geliştiricisi
 Geliştirici
 react
 React

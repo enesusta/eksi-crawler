@@ -1,0 +1,7 @@
+ersion: "3.1"
+
+services:
+  backup:
+    container_name: eksi-crawler
+    build: .
+    image: enesusta/eksi-crawler:0.1

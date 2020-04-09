@@ -16,7 +16,7 @@ def entries(page=1):
                     arr.append(rep(temp))
             return arr
     else:
-        return 404 # there is no content to show.
+        return 404 
 
 def rep(entry):
     return entry.replace("#","");
