@@ -2,7 +2,10 @@
 ## eksi-crawler
 
 <div align="center">
-    [![HitCount](http://hits.dwyl.com/enesusta/eksi-crawler.svg)](http://hits.dwyl.com/enesusta/eksi-crawler)
+
+[![HitCount](http://hits.dwyl.com/enesusta/eksi-crawler.svg)](http://hits.dwyl.com/enesusta/eksi-crawler)
+![GitHub language count](https://img.shields.io/github/languages/count/enesusta/eksi-crawler?color=green)
+![GitHub last commit](https://img.shields.io/github/last-commit/enesusta/eksi-crawler)
 
 </div>
 
