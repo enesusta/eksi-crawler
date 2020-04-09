@@ -15,7 +15,3 @@ bilgisayar mühendisi
 bilgisayar Mühendisliği
 geliştirici
 Geliştirici
-rehber
-Rehber
-Yol
-yol
